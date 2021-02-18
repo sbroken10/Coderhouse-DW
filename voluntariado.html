@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Humedal del burro </title>
+    </head>
+    <body class="voluntarioContainer">
+        <header class="header">
+            <section>
+                <ul class="nav nav-tabs nav-fill">
+                    <li class="nav-item"><a  class="header1 nav-link"href="index.html">Humedal el burro</a></li>
+                    <li class="nav-item"><a class="header1 nav-link"  href="monitoreo-en-linea.html">Monitoreo en linea</a></li>
+                    <li class="nav-item"><a  class="header1 nav-link active"   href="recorrido360.html">Recorrido 360</a></li>
+                </ul>  
+            </section> 
+        </header>
+        <section class="voluntario">
+           <h2 class="subTitles">Convierte en voluntari@</h2>
+           <form action="voluntariado.html">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="name">
+                
+                <label for="email">Correo electronico:</label>
+                <input type="text" name="email" id="email">
+                
+                <label for="phone">Telefono:</label>
+                <input type="text" name="phone" id="phone">
+                
+            </fieldset>   
+            <fieldset>
+                <legend>Seleccione su Sexo</legend>
+               
+                <div>Hombre<input type="radio" name="sexo" value="hombre"></div>
+                <div>Mujer<input type="radio" name="sexo" value="mujer"></div>
+            </fieldset>
+            <fieldset>
+                <legend>Escriba su motivacion para ser voluntario</legend>
+                <textarea name="motivacion" id="motivacion" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Condiciones</legend>
+                <div>Acepta terminos y condiciones de tratamiento de datos<input type="checkbox" name="terminos" id="terminos"></div>
+                <div>Acepta suscribirse a las noticias?
+                <select name="suscripcion">
+                    <option value="si">Acepto</option>
+                    <option value="no">No Acepto</option>
+                </select>
+                </div>  
+            </fieldset>  
+            <fieldset>
+                <input type="submit" value="send"/>
+                <input type="reset" value="reset"/>
+            </fieldset>          
+           </form>
+        </section>
+        <footer class="footer">
+            <p>Web page created by ...
+            All rights reserved</p>
+        </footer>
+    </body>
+</html>

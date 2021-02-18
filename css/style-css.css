@@ -1,0 +1,399 @@
+/*--------------------------INDEX BEM*/
+/*MENU BEM*/
+.menuBem {
+  background-color: rgba(79, 218, 37, 0.18);
+  border-radius: 5px;
+  margin: 0vh 0vh 2vh 0vh;
+  padding-top: 0vh; }
+
+.menuBem--titulos {
+  color: #75622d;
+  font-size: 40px;
+  text-shadow: 1px 1px 5px black; }
+
+/*.menuBem--activo{
+    background-color: rgb(117, 98, 45);
+    padding: 1vh 1vh 1vh 1vh;
+    margin: 1vh 1vh 1vh 1vh;
+}*/
+.menuBem--titulosActivos {
+  color: #75622d;
+  font-size: 35px;
+  text-shadow: 1px 1px 5px white; }
+
+/*GALERIA BEM*/
+.galeriaBem {
+  background-color: rgba(79, 218, 37, 0.18); }
+
+.galeriaBem__activo {
+  opacity: 0.5;
+  border-radius: 10px; }
+
+.galeriaBem__activo:hover {
+  opacity: 1.0; }
+
+.galeriaBem--notorio {
+  font-size: 250%;
+  text-align: center;
+  color: #75622d;
+  text-shadow: 2px 2px 5px black;
+  font-size: 50px; }
+
+.galeriaBem--imagenes {
+  width: 70vh;
+  height: 50vh;
+  display: inline;
+  margin: 2vh 2vh 2vh 2vh; }
+
+.galeriaBem__imagenes {
+  margin: 1vh 5vh 1vh 0vh; }
+
+/*PROTOCOLO BEM*/
+.protocoloBem {
+  background-color: rgba(79, 218, 37, 0.18);
+  border-radius: 10px;
+  margin: 0vh 2vh 2vh 2vh;
+  padding-top: 4vh; }
+
+.protocoloBem--titulos {
+  color: #75622d;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black; }
+
+/*ETAPAS BEM*/
+.etapasBem {
+  background-color: rgba(79, 218, 37, 0.18);
+  border-radius: 10px;
+  margin: 0vh 2vh 2vh 2vh;
+  padding-top: 4vh; }
+
+.etapasBem--titulos {
+  color: #75622d;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black; }
+
+/*SOLICITUDES BEM*/
+.solicitudesBem {
+  background-color: rgba(79, 218, 37, 0.18);
+  border-radius: 10px;
+  margin: 0vh 2vh 2vh 2vh;
+  padding-top: 4vh; }
+
+.solicitudesBem__form {
+  margin: 1vh 1vh 5vh 1vh; }
+
+.solicitudesBem--titulos {
+  color: #75622d;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black; }
+
+/*FOOTER BEM*/
+.footerBem {
+  background-color: rgba(79, 218, 37, 0.18);
+  border-radius: 10px;
+  margin: 0vh 2vh 2vh 2vh;
+  padding-top: 4vh; }
+
+.footerBem--titulos {
+  color: #75622d;
+  font-size: 20px;
+  text-shadow: 0.5px 0.5px 2px black; }
+
+/*MONITOREO BEM*/
+.herramientaBem {
+  background-color: rgba(79, 218, 37, 0.18);
+  border-radius: 10px;
+  margin: 0vh 2vh 2vh 2vh;
+  padding-top: 4vh; }
+
+.herramientaBem__mapa {
+  width: 180vh;
+  height: 80vh;
+  display: inline;
+  margin: 2vh 20vh 2vh 0vh;
+  padding: 2vh 2vh 2vh 2vh;
+  border-radius: 15px;
+  border: solid black; }
+
+.herramientaBem__titulos {
+  color: #75622d;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
+  text-align: center; }
+
+/*RECORRIDO BEM*/
+.recorridoBem {
+  background-color: rgba(79, 218, 37, 0.18);
+  border-radius: 10px;
+  margin: 0vh 2vh 2vh 2vh;
+  padding-top: 4vh; }
+
+.recorridoBem__360 {
+  width: 180vh;
+  height: 80vh;
+  display: inline;
+  margin: 2vh 25vh 2vh 0vh;
+  padding: 2vh 2vh 2vh 2vh;
+  border-radius: 15px;
+  border: solid black; }
+
+.recorridoBem__titulos {
+  color: #75622d;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
+  text-align: center; }
+
+body {
+  background-color: #75622d !important; }
+
+div div {
+  margin: 2vh 2vh 2vh 2vh; }
+  div div input {
+    width: 8%;
+    padding: 12px 20px;
+    border-radius: 10px; }
+
+fieldset label {
+  font-size: 25px;
+  color: #75622d;
+  text-shadow: 0.5px 0.5px 2px black; }
+
+fieldset input {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border-color: #75622d; }
+
+fieldset legend {
+  font-size: 25px;
+  color: #75622d;
+  text-shadow: 0.5px 0.5px 2px black; }
+
+fieldset textarea {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 10px; }
+
+/*For Links*/
+a {
+  text-decoration: none;
+  color: unset !important; }
+
+a:visited {
+  text-decoration: none;
+  color: unset !important; }
+
+a:hover {
+  text-decoration: none;
+  color: unset !important; }
+
+a:focus {
+  text-decoration: none;
+  color: unset !important; }
+
+a:hover, a:link, a:active {
+  text-decoration: none;
+  color: unset !important; }
+
+/*Text Properties*/
+.titles {
+  font-family: Impact, sans-serif;
+  font-weight: bold;
+  font-size: 400%; }
+
+.subTitles {
+  font-family: impact, sans-serif;
+  font-weight: normal;
+  font-size: 220%; }
+
+.subTitles2 {
+  font-family: impact, sans-serif;
+  font-weight: 100;
+  font-size: 150%; }
+
+.paragraphLeft {
+  text-align: left;
+  font-weight: normal;
+  font-size: 150%; }
+
+.paragraphCenter {
+  text-align: center;
+  font-weight: normal;
+  font-size: 150%; }
+
+.paragraphRight {
+  text-align: right;
+  font-weight: normal;
+  font-size: 150%; }
+
+/*Backgrounds*/
+.pt28 {
+  background-color: #282828;
+  background-image: -webkit-radial-gradient(black 15%, transparent 16%), -webkit-radial-gradient(black 15%, transparent 16%), -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
+  background-image: -moz-radial-gradient(black 15%, transparent 16%), -moz-radial-gradient(black 15%, transparent 16%), -moz-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), -moz-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
+  background-image: -ms-radial-gradient(black 15%, transparent 16%), -ms-radial-gradient(black 15%, transparent 16%), -ms-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), -ms-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
+  background-image: -o-radial-gradient(black 15%, transparent 16%), -o-radial-gradient(black 15%, transparent 16%), -o-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), -o-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
+  background-image: radial-gradient(black 15%, transparent 16%), radial-gradient(black 15%, transparent 16%), radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
+  background-position: 0 0px, 8px 8px, 0 1px, 8px 9px;
+  background-size: 16px 16px;
+  background-repeat: repeat; }
+
+.pt4 {
+  background-size: 50px 50px;
+  background-color: #ac0;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-image: -ms-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent); }
+
+.pt5 {
+  background-color: white; }
+
+/*Index Containers and elements*/
+.indexContainer {
+  display: grid;
+  grid-template-areas: "header header header header header header header header header" "header header header header header header header header header" "navigation navigation navigation navigation navigation navigation navigation navigation navigation" "navigation navigation navigation navigation navigation navigation navigation navigation navigation" "galeria galeria galeria galeria galeria galeria galeria galeria galeria" "galeria galeria galeria galeria galeria galeria galeria galeria galeria" "galeria galeria galeria galeria galeria galeria galeria galeria galeria" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "footer footer footer footer footer footer footer footer footer" "footer footer footer footer footer footer footer footer footer";
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 0vh; }
+
+.navMenu0 {
+  padding: 2% 10% 2% 10%;
+  grid-area: logo; }
+
+.header {
+  padding: 1% 1% 1% 1%;
+  margin: 0.2% 0.0% 0% 0%;
+  font-family: impact, sans-serif;
+  font-weight: normal;
+  font-size: 220%;
+  text-align: center;
+  grid-area: header;
+  align-items: center; }
+
+.navigation {
+  padding: 2% 10% 2% 10%;
+  margin: 0.2% 0.0% 2% 0%;
+  font-family: impact, sans-serif;
+  font-weight: normal;
+  font-size: 220%;
+  text-align: center;
+  grid-area: navigation;
+  align-items: center; }
+
+/*.navigationMenu{
+    display: grid
+    grid-template-areas: "galeria etapas protocolo"
+                         "... voluntario solicitudes";
+                         grid-template-columns: auto;
+    grid-template-rows: ;
+    grid-gap: 1vh;
+}*/
+.navMenu {
+  display: grid;
+  grid-template-areas: "galeria etapas protocolo" "galeria etapas protocolo" "... voluntario solicitudes" "... voluntario solicitudes";
+  grid-template-columns: 200px;
+  grid-template-rows: 1500px;
+  grid-gap: 0.5vh; }
+
+.navMenu1 {
+  padding: 0% 5% 2% 10%;
+  margin: 0.0% 0.0% 2% 0%;
+  font-family: impact, sans-serif;
+  font-weight: normal;
+  font-size: 220%;
+  text-align: center;
+  grid-area: galeria;
+  border: solid black; }
+
+.navMenu2 {
+  padding: 0% 5% 2% 10%;
+  margin: 0.0% 0.0% 2% 0%;
+  font-family: impact, sans-serif;
+  font-weight: normal;
+  font-size: 220%;
+  text-align: center;
+  grid-area: etapas;
+  border: solid black; }
+
+.navMenu3 {
+  padding: 0% 5% 2% 10%;
+  margin: 0.0% 0.0% 2% 0%;
+  font-family: impact, sans-serif;
+  font-weight: normal;
+  font-size: 220%;
+  text-align: center;
+  grid-area: protocolo;
+  border: solid black; }
+
+.navMenu4 {
+  padding: 0% 5% 2% 10%;
+  margin: 0.0% 0.0% 2% 0%;
+  font-family: impact, sans-serif;
+  font-weight: normal;
+  font-size: 220%;
+  text-align: center;
+  grid-area: voluntario; }
+
+.navMenu5 {
+  padding: 0% 5% 2% 10%;
+  margin: 0.0% 0.0% 2% 0%;
+  font-family: impact, sans-serif;
+  font-weight: normal;
+  font-size: 220%;
+  text-align: center;
+  grid-area: solicitudes; }
+
+.galeria {
+  padding: 2% 10% 2% 10%;
+  margin: 0.2% 0.0% 2% 0%;
+  grid-area: galeria; }
+
+.etapas {
+  padding: 2% 10% 2% 10%;
+  margin: 0.2% 0.0% 2% 0%;
+  grid-area: etapas; }
+
+.protocolo {
+  padding: 2% 10% 2% 10%;
+  margin: 0.2% 0.0% 2% 0%;
+  grid-area: protocolo; }
+
+.investigacion {
+  padding: 2% 10% 2% 10%;
+  margin: 0.2% 0.0% 2% 0%;
+  grid-area: investigacion;
+  text-align: center; }
+
+.footer {
+  padding: 2% 10% 2% 10%;
+  margin: 0.2% 0.0% 2% 0%;
+  grid-area: footer; }
+
+/*Monitoreo Container and elements*/
+.monitoreoContainer {
+  display: grid;
+  grid-template-areas: "header header header header header header" "header header header header header header" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "footer footer footer footer footer footer" "footer footer footer footer footer footer";
+  grid-template-columns: 100px;
+  grid-template-rows: auto;
+  grid-gap: 1vh; }
+
+.herramienta {
+  padding: 2% 10% 2% 10%;
+  margin: 0.2% 0.0% 2% 0%;
+  grid-area: herramienta; }
+
+/*Voluntariadeo Container and elements*/
+.voluntarioContainer {
+  display: grid;
+  grid-template-areas: "header header header header header header" "header header header header header header" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "footer footer footer footer footer footer" "footer footer footer footer footer footer";
+  grid-template-columns: 100px;
+  grid-template-rows: auto;
+  grid-gap: 1vh; }
+
+.voluntario {
+  padding: 2% 10% 2% 10%;
+  margin: 0.2% 0.0% 2% 0%;
+  grid-area: voluntario;
+  border: solid black; }
